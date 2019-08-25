@@ -16,6 +16,50 @@ app.prepare().then(() => {
     ctx.respond = false
   })
 
+  router.get('/profile/:page', async ctx => {
+    switch(page) {
+      case 'general':
+          await app.render(ctx.req, ctx.res, '/profile/general', ctx.query)
+          break
+      case 'basic':
+          await app.render(ctx.req, ctx.res, '/profile/basic', ctx.query)
+    }
+    ctx.respond = false
+  })
+
+  router.get('/chart/:page', async ctx => {
+    switch(page) {
+      case 'general':
+          await app.render(ctx.req, ctx.res, '/chart/general', ctx.query)
+          break
+      case 'basic':
+          await app.render(ctx.req, ctx.res, '/chart/basic', ctx.query)
+    }
+    ctx.respond = false
+  })
+
+  router.get('/table/:page', async ctx => {
+    switch(page) {
+      case 'general':
+          await app.render(ctx.req, ctx.res, '/table/general', ctx.query)
+          break
+      case 'basic':
+          await app.render(ctx.req, ctx.res, '/table/basic', ctx.query)
+    }
+    ctx.respond = false
+  })
+
+  router.get('/list/:page', async ctx => {
+    switch(page) {
+      case 'general':
+          await app.render(ctx.req, ctx.res, '/list/general', ctx.query)
+          break
+      case 'basic':
+          await app.render(ctx.req, ctx.res, '/list/basic', ctx.query)
+    }
+    ctx.respond = false
+  })
+
   router.get('*', async ctx => {
     await handle(ctx.req, ctx.res)
     ctx.respond = false
