@@ -18,7 +18,7 @@
   "author": "Hui Zhou",
   "license": "MIT",
   "dependencies": {
-    "@alifd/next": "^1.16.7",
+    "@alifd/next": "^1.17.8",
     "@ice/store": "^0.3.0",
     "@icedesign/foundation-symbol": "^1.0.4",
     "@icedesign/layout": "^1.0.8",
