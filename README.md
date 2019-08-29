@@ -22,7 +22,7 @@ const withSass = require('@zeit/next-sass')
 module.exports = withSass({
   webpack: (config, { isServer }) => {
     if (isServer) {
-      const alifdStyles = /@alifd\/*\/.*?/
+      const alifdStyles = /@alifd\/*\/style.*?/
       const origExternals = [...config.externals]
       config.externals = [
         (context, request, callback) => {
