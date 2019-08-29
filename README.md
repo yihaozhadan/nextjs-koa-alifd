@@ -16,7 +16,7 @@ Install _babel-plugin-import_ and setup plugin in [.babelrc](/.babelrc).
 ```
 
 Sass loader is required to load _Alifd_ CSS. Here is Webpack configuration in [next.config.js](/next.config.js)
-```json
+```javascript
 const withSass = require('@zeit/next-sass')
 
 module.exports = withSass({
