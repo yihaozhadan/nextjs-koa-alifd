@@ -78,7 +78,7 @@ class BasicLayout extends Component {
             }}
           >
             <p style={{ color: '#999' }}>
-              ©2019 Hui all rights reserved.
+              ©2020 Hui all rights reserved.
               <br />
               Supported by <a href="https://alibaba.github.io/ice" target="_blank"> ICE </a>
             </p>

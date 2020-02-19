@@ -45,6 +45,14 @@ module.exports = withSass({
   },
 })
 ```
+## Get Started
+```
+npm run build
+```
+
+```
+npm run dev
+```
 
 ## Feature
 
