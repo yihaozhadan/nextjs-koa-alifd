@@ -17,16 +17,17 @@
   "author": "Hui Zhou",
   "license": "MIT",
   "dependencies": {
-    "@alifd/next": "^1.19.13",
+    "@alifd/next": "^1.19.22",
     "@ice/store": "^0.3.0",
+    "@icedesign/container": "^1.0.5",
     "@icedesign/foundation-symbol": "^1.0.4",
     "@icedesign/layout": "^1.0.8",
     "koa": "^2.11.0",
     "koa-router": "^7.4.0",
     "moment": "^2.24.0",
-    "next": "^9.2.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "next": "^9.3.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@zeit/next-css": "^1.0.1",
